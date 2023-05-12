@@ -27,7 +27,7 @@ Android Interview Questions:
 * **What is `AndroidManifest.xml`?**
 
 * **What is `Application` class?**
-    - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
+   <!-- - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any sublass of the Application class, is instantiated before any other class when the process for your application/package is created. -->
 
 #### Activity and Fragment
 
@@ -42,8 +42,8 @@ Android Interview Questions:
 * **Why do we need to call setContentView() in onCreate() of Activity class?** <!--- [Learn from here](https://www.youtube.com/watch?v=U1aHAt7XC5I)-->
 
 * **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
-    - onSavedInstanceState() - This method is used to store data before pausing the activity.
-    - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.
+    <!--- onSavedInstanceState() - This method is used to store data before pausing the activity.
+    - onRestoreInstanceState() - This method is used to recover the saved state of an activity when the activity is recreated after destruction. So, the onRestoreInstanceState() receive the bundle that contains the instance state information.-->
 
 * **What is `Fragment` and its lifecycle.**
 
@@ -52,22 +52,22 @@ Android Interview Questions:
 * **What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.** <!--- [Learn from here](https://stackoverflow.com/questions/10478233/why-fragments-and-when-to-use-fragments-instead-of-activities) -->
 
 * **When should you use a Fragment rather than an Activity?**
-    - When you have some UI components to be used across various activities
-    - When multiple view can be displayed side by side just like viewPager
+   <!-- - When you have some UI components to be used across various activities
+    - When multiple view can be displayed side by side just like viewPager -->
 
 * **What is the difference between FragmentPagerAdapter vs FragmentStatePagerAdapter?**
-    - FragmentPagerAdapter: Each fragment visited by the user will be stored in the memory but the view will be destroyed. When the page is revisited, then the view will be created not the instance of the fragment.
-    - FragmentStatePagerAdapter: Here, the fragment instance will be destroyed when it is not visible to the user, except the saved state of the fragment.
+   <!-- - FragmentPagerAdapter: Each fragment visited by the user will be stored in the memory but the view will be destroyed. When the page is revisited, then the view will be created not the instance of the fragment.
+    - FragmentStatePagerAdapter: Here, the fragment instance will be destroyed when it is not visible to the user, except the saved state of the fragment. -->
 
 * **What is the difference between adding/replacing fragment in backstack?** <!--- [Learn from here](https://stackoverflow.com/questions/24466302/basic-difference-between-add-and-replace-method-of-fragment/24466345) -->
 
 * **How would you communicate between two Fragments?**
 
 * **What is retained `Fragment`?**
-    - By default, Fragments are destroyed and recreated along with their parent Activity’s when a configuration change occurs. Calling setRetainInstance(true) allows us to bypass this destroy-and-recreate cycle, signaling the system to retain the current instance of the fragment when the activity is recreated.
+    <!--- By default, Fragments are destroyed and recreated along with their parent Activity’s when a configuration change occurs. Calling setRetainInstance(true) allows us to bypass this destroy-and-recreate cycle, signaling the system to retain the current instance of the fragment when the activity is recreated.-->
 
 * **What is the purpose of `addToBackStack()` while commiting fragment transaction?**
-    - By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment by pressing the Back button. <!--For more [Learn from here](https://stackoverflow.com/questions/22984950/what-is-the-meaning-of-addtobackstack-with-null-parameter)-->
+    <!--- By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment by pressing the Back button. <!--For more [Learn from here](https://stackoverflow.com/questions/22984950/what-is-the-meaning-of-addtobackstack-with-null-parameter)-->
 #### Views and ViewGroups
 
 * **What is `View` in Android?**
@@ -77,8 +77,8 @@ Android Interview Questions:
 * **Can you a create custom view? How?**
 
 * **What are ViewGroups and how they are different from the Views?**
-    - View: View objects are the basic building blocks of User Interface(UI) elements in Android. View is a simple rectangle box which responds to the user’s actions. Examples are EditText, Button, CheckBox etc. View refers to the android.view.View class, which is the base class of all UI classes.
-    - ViewGroup: ViewGroup is the invisible container. It holds View and ViewGroup. For example, LinearLayout is the ViewGroup that contains Button(View), and other Layouts also. ViewGroup is the base class for Layouts.
+   <!-- - View: View objects are the basic building blocks of User Interface(UI) elements in Android. View is a simple rectangle box which responds to the user’s actions. Examples are EditText, Button, CheckBox etc. View refers to the android.view.View class, which is the base class of all UI classes.
+    - ViewGroup: ViewGroup is the invisible container. It holds View and ViewGroup. For example, LinearLayout is the ViewGroup that contains Button(View), and other Layouts also. ViewGroup is the base class for Layouts.-->
 
 * **What is a Canvas?**
 
@@ -129,12 +129,12 @@ Android Interview Questions:
 * **What is the function of an `IntentFilter`?** <!--- [Learn from here](https://developer.android.com/reference/android/content/IntentFilter) -->
 
 * **What is a Sticky `Intent`?**
-    - Sticky Intents allows communication between a function and a service. sendStickyBroadcast() performs a sendBroadcast(Intent) known as sticky, i.e. the Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver(BroadcastReceiver, IntentFilter). For example, if you take an intent for ACTION_BATTERY_CHANGED to get battery change events: When you call registerReceiver() for that action — even with a null BroadcastReceiver — you get the Intent that was last Broadcast for that action. Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.
+  <!--  - Sticky Intents allows communication between a function and a service. sendStickyBroadcast() performs a sendBroadcast(Intent) known as sticky, i.e. the Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver(BroadcastReceiver, IntentFilter). For example, if you take an intent for ACTION_BATTERY_CHANGED to get battery change events: When you call registerReceiver() for that action — even with a null BroadcastReceiver — you get the Intent that was last Broadcast for that action. Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.-->
 
 * **Describe how broadcasts and intents work to be able to pass messages around your app?** <!--- [Learn from here](https://stackoverflow.com/questions/7276537/using-a-broadcast-intent-broadcast-receiver-to-send-messages-from-a-service-to-a) -->
 
 * **What is a `PendingIntent`?**
-    - If you want someone to perform any Intent operation at future point of time on behalf of you, then we will use Pending Intent.
+   <!-- - If you want someone to perform any Intent operation at future point of time on behalf of you, then we will use Pending Intent. -->
 
 * **What are the different types of Broadcasts?** <!-- - [Learn from here](https://developer.android.com/guide/components/broadcasts) -->
 
@@ -175,7 +175,7 @@ Android Interview Questions:
 * **What is a `Loader`? (Deprecated)** <!-- - [Learn from here](https://developer.android.com/guide/components/loaders) -->
 
 * **What is the relationship between the life cycle of an `AsyncTask` and an `Activity`? What problems can this result in? How can these problems be avoided?**
-    - An AsyncTask is not tied to the life cycle of the Activity that contains it. So, for example, if you start an AsyncTask inside an Activity and the user rotates the device, the Activity will be destroyed (and a new Activity instance will be created) but the AsyncTask will not die but instead goes on living until it completes.
+    <!--- An AsyncTask is not tied to the life cycle of the Activity that contains it. So, for example, if you start an AsyncTask inside an Activity and the user rotates the device, the Activity will be destroyed (and a new Activity instance will be created) but the AsyncTask will not die but instead goes on living until it completes.
     
     - Then, when the AsyncTask does complete, rather than updating the UI of the new Activity, it updates the former instance of the Activity (i.e., the one in which it was created but that is not displayed anymore!). This can lead to an Exception (of the type java.lang.IllegalArgumentException: View not attached to window manager if you use, for instance, findViewById to retrieve a view inside the Activity).
     
@@ -183,7 +183,7 @@ Android Interview Questions:
 
     - For these reasons, using AsyncTasks for long-running background tasks is generally a bad idea . Rather, for long-running background tasks, a different mechanism (such as a service) should be employed.
     
-    - Note: AsyncTasks by default run on a single thread using a serial executor, meaning it has only 1 thread and each task runs one after the other.
+    - Note: AsyncTasks by default run on a single thread using a serial executor, meaning it has only 1 thread and each task runs one after the other. -->
 
 * **Explain `Looper`, `Handler` and `HandlerThread`.**
 
@@ -194,7 +194,7 @@ Android Interview Questions:
 * **How do you handle bitmaps in Android as it takes too much memory?** <!-- - [Learn from here](https://developer.android.com/topic/performance/graphics/load-bitmap) and [here](https://developer.android.com/topic/performance/graphics/manage-memory) -->
 
 * **What is the difference between a regular `Bitmap` and a nine-patch image?**
-    - In general, a Nine-patch image allows resizing that can be used as background or other image size requirements for the target device. The Nine-patch refers to the way you can resize the image: 4 corners that are unscaled, 4 edges that are scaled in 1 axis, and the middle one that can be scaled into both axes.
+    <!--- In general, a Nine-patch image allows resizing that can be used as background or other image size requirements for the target device. The Nine-patch refers to the way you can resize the image: 4 corners that are unscaled, 4 edges that are scaled in 1 axis, and the middle one that can be scaled into both axes.
 
 * **Tell about the `Bitmap` pool.** <!-- - [Learn from here](https://amitshekhar.me/blog/bitmap-pool) -->
 
@@ -215,15 +215,15 @@ Android Interview Questions:
 * **How to encrypt data in Android?**
 
 * **What is commit() and apply() in SharedPreferences?**
-    - commit() returns a boolean value of success or failure immediately by writing data synchronously.
-    - apply() is asynchronous and it won't return any boolean response. If you have an apply() outstanding and you are performing commit(), then the commit() will be blocked until the apply() is not completed.
+   <!-- - commit() returns a boolean value of success or failure immediately by writing data synchronously.
+    - apply() is asynchronous and it won't return any boolean response. If you have an apply() outstanding and you are performing commit(), then the commit() will be blocked until the apply() is not completed.-->
 
 #### Look and Feel
 
 * **What is a `Spannable`?**
 
 * **What is a `SpannableString`?**
-   - A SpannableString has immutable text, but its span information is mutable. Use a SpannableString when your text doesn't need to be changed but the styling does. Spans are ranges over the text that include styling information like color, heighliting, italics, links, etc
+   <!--- A SpannableString has immutable text, but its span information is mutable. Use a SpannableString when your text doesn't need to be changed but the styling does. Spans are ranges over the text that include styling information like color, heighliting, italics, links, etc -->
 
 * **What are the best practices for using text in Android?**
 
@@ -328,3 +328,180 @@ Android Interview Questions:
 * **How to check if Software keyboard is visible or not?**
 
 * **How to take screenshot in Android programmatically?**
+
+### Android Libraries
+
+Android Interview Questions:
+
+* **Explain OkHttp Interceptor** <!--- [Learn from here](https://amitshekhar.me/blog/okhttp-interceptor)-->
+
+* **OkHttp - HTTP Caching** <!--- [Learn from here](https://amitshekhar.me/blog/caching-with-okhttp-interceptor-and-retrofit)-->
+
+* **Tell me something about RxJava.**
+
+* **How will you handle error in RxJava?**
+
+* **FlatMap Vs Map Operator** <!--- [Learn from here](https://amitshekhar.me/blog/rxjava-map-vs-flatmap)-->
+    
+* **When to use `Create` operator and when to use `fromCallable` operator of RxJava?** <!--- Learn from here: [RxJava Create and fromCallable Operator](https://amitshekhar.me/blog/rxjava-create-and-fromcallable-operator)-->
+    
+* **When to use `defer` operator of RxJava?** - Learn from here:<!-- [RxJava Defer Operator](https://amitshekhar.me/blog/rxjava-defer-operator)-->
+    
+* **How are Timer, Delay, and Interval operators used in RxJava?** <!--- [Learn from here](https://amitshekhar.me/blog/rxjava-interval-operator)-->
+
+* **How to make two network calls in parallel using RxJava?** - <!--[RxJava Zip Operator](https://amitshekhar.me/blog/rxjava-zip-operator)-->
+    
+* **Tell the difference between Concat and Merge.** <!--- [Learn from here](https://amitshekhar.me/blog/rxjava-concat-operator) and [here](https://amitshekhar.me/blog/rxjava-merge-operator) -->
+
+* **Explain Subject in RxJava?** <!--- [Learn from here](https://amitshekhar.me/blog/rxjava-subject-publish-replay-behavior-async)-->
+
+* **What are the types of Observables in RxJava?** <!--- Learn from here: [Types Of Observables In RxJava](https://amitshekhar.me/blog/types-of-observables-in-rxjava)-->
+
+* **How to implement search feature using RxJava in your application?**<!-- - Learn from here: [Instant Search Using RxJava Operators](https://amitshekhar.me/blog/instant-search-using-rxjava-operators)-->
+
+* **Pagination In RecyclerView Using RxJava Operators** <!--- [Learn from here](https://amitshekhar.me/blog/pagination-in-recyclerview-using-rxjava-operators)-->
+
+* **How The Android Image Loading Library Glide and Fresco Works?**<!--- [Learn from here](https://amitshekhar.me/blog/android-image-loading-library-optimize-memory-usage), [here](https://amitshekhar.me/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui) and [here](https://amitshekhar.me/blog/android-image-loading-library-solve-the-slow-loading-issue)-->
+
+* **Difference between Schedulers.io() and Schedulers.computation() in RxJava.**
+
+* **Why do we use the Dependency Injection Framework like Dagger in Android?**
+
+* **How does the Dagger work?**
+
+* **What is Component in Dagger?**
+
+* **What is Module in Dagger?**
+
+* **How does the custom scope work in Dagger?**
+
+* **When to call dispose and clear on CompositeDisposable in RxJava?**<!-- - [Learn from here](https://amitshekhar.me/blog/dispose-vs-clear-compositedisposable-rxjava)-->
+
+* **What is Multipart Request in Networking?**
+
+* **What is Flow in Kotlin?** <!--- [Learn from here](https://amitshekhar.me/blog/flow-api-in-kotlin) -->
+
+### Android Architecture
+
+Android Interview Questions:
+
+* **Describe the architecture of your last app.**
+
+* **Describe MVP.**
+
+* **Describe MVVM.** <!--- [MVVM Architecture](https://amitshekhar.me/blog/mvvm-architecture-android) -->
+
+* **MVC vs MVP vs MVVM architecture.**
+
+* **What is presenter?**
+
+* **What is model?**
+
+* **Describe MVC.**
+
+* **Describe MVI**
+
+* **Describe the repository pattern**
+
+* **What is controller?**
+
+* **Tell something about clean code**
+
+### Android Design Problem
+
+Android Interview Questions:
+
+* **Design Uber App.** <!--- [Learn from here](https://github.com/amitshekhariitbhu/ridesharing-uber-lyft-app)-->
+
+* **Design Facebook App.**
+
+* **Design Facebook Near-By Friends App.**
+
+* **Design WhatsApp.**
+
+* **Design SnapChat.**
+
+* **Design problems based on location based app.**
+
+* **How to build offline-first app? Explain the architecture.**
+
+* **Design LRU Cache.**
+
+* **Design File Downloader** <!--- [Learn from here](https://github.com/amitshekhariitbhu/PRDownloader)-->
+
+* **Design an Image Loading Library** <!--- [Learn from here](https://amitshekhar.me/blog/android-image-loading-library-optimize-memory-usage), [here](https://amitshekhar.me/blog/android-image-loading-library-use-bitmap-pool-for-responsive-ui) and [here](https://amitshekhar.me/blog/android-image-loading-library-solve-the-slow-loading-issue)-->
+
+* **HTTP Request vs HTTP Long-Polling vs WebSockets** <!--- [Learn from blog](https://amitshekhar.me/blog/http-request-long-polling-websocket-sse) and [Video - HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)-->
+
+* **How do Voice And Video Call Work?** <!--- [Learn from here](https://amitshekhar.me/blog/voice-and-video-call)-->
+
+### Android Unit Testing
+
+Android Interview Questions:
+
+* **What is Espresso?** <!--- [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html) -->
+
+* **What is Robolectric?** <!--- [Learn from here](http://robolectric.org/) -->
+
+* **What are the disadvantages of using Robolectric?** <!--- [Learn from here](https://stackoverflow.com/questions/18271474/robolectric-vs-android-test-framework) -->
+
+* **What is UI-Automator?** <!--- [Learn from here](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html) -->
+
+* **Explain unit test.** <!--- [Learn from here](https://developer.android.com/training/testing/unit-testing/local-unit-tests) -->
+
+* **Explain instrumented test.** <!--- [Learn from here](https://developer.android.com/training/testing/unit-testing/instrumented-unit-tests) -->
+
+* **Have you done unit testing or automatic testing?**
+
+* **Why Mockito is used?** <!--- [Learn from here](http://site.mockito.org/) -->
+
+* **Describe JUnit test.** <!--- [Learn from here](https://en.wikipedia.org/wiki/JUnit) -->
+
+* **Describe code coverage.**
+
+### Android Tools And Technologies
+
+Android Interview Questions:
+
+* **What is ADB?** <!--- [Learn from here](https://developer.android.com/studio/command-line/adb) -->
+
+* **What is DDMS and what can you do with it?** <!--- [Learn from here](https://developer.android.com/studio/profile/monitor)-->
+
+* **What is the StrictMode?** <!--- Learn from here: [StrictMode](https://amitshekhar.me/blog/strictmode-in-android-development) -->
+
+* **What is Lint? What is it used for?**
+
+* **Git.**
+
+* **Android Development Useful Tools.**
+
+* **Firebase.** <!-- [Learn from here](https://firebase.google.com/) -->
+
+* **How to measure method execution time in Android?**
+
+* **Can you access your database of SQLite Database for debugging?** <!--- [Learn from here](https://github.com/amitshekhariitbhu/Android-Debug-Database)-->
+
+* **What are things that we need to take care while using Proguard?**
+
+* **What is Multidex in Android?**
+
+* **How to use Android Studio Memory Profiler?**
+
+* **How to use Firebase realtime database in your app?**
+
+* **What is Gradle?**
+
+* **APK Size Reduction.**
+
+* **How can you speed up the Gradle build?**
+
+* **About gradle build system.**
+
+* **About multiple apk for android application.**
+
+* **What is proguard used for?**
+
+* **What is obfuscation? What is it used for? What about minification?**
+
+* **How to change some parameters in an app without app update?**
+
