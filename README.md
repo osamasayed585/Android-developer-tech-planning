@@ -505,3 +505,47 @@ Android Interview Questions:
 
 * **How to change some parameters in an app without app update?**
 
+### Java and Kotlin
+
+Android Interview Questions:
+
+#### OOP
+
+* **Explain OOP Concepts.**
+    - Object-Oriented Programming is a methodology of designing a program using classes, objects, 
+    [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)),
+    [polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)),
+    [abstraction](https://en.wikipedia.org/wiki/Abstraction_(software_engineering)), and
+    [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)).
+    
+* **What is the difference between a constructor and a method?**
+    - The name of the constructor is same as that of the class name, whereas the name of the method can be anything.
+    - There is no return type of a constructor.
+    - When you make an object of a class, then the constructor of that class will be called automatically. 
+      But for methods, we need to call it explicitely.
+    - Constructors can't be inherited but you can call the constructor of the parent class by calling `super()`.
+    - Constructor and a method they both run a block of code but the difference is in calling them.
+    - We can call method directly using their name.
+    - Constructor Syntax -
+        ```java
+        public class SomeClassName{
+            SomeClassName(parameter_list){ 
+                ...
+            } 
+            ...
+        }
+        ```
+    - Note:
+        In the above syntax, the name of the constructor is the same as that of class
+        and it has no return type.
+        
+    - Method Syntax 
+        ```java
+        public class SomeClassName{
+            public void someMethodName(parameter_list){
+                ...
+            }
+            // call method
+            someMethodName(parameter_list)
+        }
+        ```
