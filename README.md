@@ -19,6 +19,7 @@ Android Interview Questions:
 #### Base
 * **What is Android?** - [Learn from here](https://www.interviewbit.com/android-interview-questions/#what-is-android)
 * **What are the advantages of Android?**
+* **Does android support other languages than java?**
 * **What is Android Core Building Blocks?** - [Learn from here](https://www.javatpoint.com/android-core-building-blocks)
 * **Tell all the Android application components.** <!-- - [Learn from here](https://developer.android.com/guide/components/fundamentals.html#Components)-->
 
