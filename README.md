@@ -30,7 +30,7 @@ Android Interview Questions:
    <!-- - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any sublass of the Application class, is instantiated before any other class when the process for your application/package is created. -->
 
 #### Activity and Fragment
-
+* **What is an activity?**
 * **Why is it recommended to use only the default constructor to create a `Fragment`?** <!-- - [Learn from here](https://www.youtube.com/watch?v=CitBt0FZFIc)-->
 
 * **What is `Activity` and its lifecycle?**
