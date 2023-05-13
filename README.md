@@ -37,7 +37,7 @@ Android Interview Questions:
 * **What is an activity?**
 * **Why is it recommended to use only the default constructor to create a `Fragment`?** <!-- - [Learn from here](https://www.youtube.com/watch?v=CitBt0FZFIc)-->
 
-* **What is `Activity` and its lifecycle?**
+* **What is `Activity` and its lifecycle?** -[learn from here](https://www.javatpoint.com/android-life-cycle-of-activity)
 
 * **What is the difference between onCreate() and onStart()**
 
