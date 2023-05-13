@@ -17,7 +17,7 @@
 Android Interview Questions:
 
 #### Base
-* **What is Android? - [Learn from here](https://www.interviewbit.com/android-interview-questions/#what-is-android)
+* **What is Android?** - [Learn from here](https://www.interviewbit.com/android-interview-questions/#what-is-android)
 * **Tell all the Android application components.** <!-- - [Learn from here](https://developer.android.com/guide/components/fundamentals.html#Components)-->
 
 * **What is `Context`? How is it used?** <!-- -  [Context In Android Application](https://amitshekhar.me/blog/context-in-android-application)-->
