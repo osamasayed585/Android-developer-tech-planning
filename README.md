@@ -217,6 +217,8 @@ Android Interview Questions:
 
 #### Data Saving
 
+* **List the various storages that are provided by Android?**
+
 * **How to persist data in an Android app?**
 
 * **What is ORM? How does it work?** 
