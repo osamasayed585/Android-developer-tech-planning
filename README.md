@@ -40,7 +40,7 @@ Android Interview Questions:
 * ** What is ANR?**
 * **What is the Google Android SDK?**
 * **What is an APK format?**
-* ** Which language does Android support to develop an application?**
+* **Which language does Android support to develop an application?**
 * **What is ADT in Android?**
 
    <!-- - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any sublass of the Application class, is instantiated before any other class when the process for your application/package is created. -->
