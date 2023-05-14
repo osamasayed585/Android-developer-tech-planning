@@ -129,6 +129,8 @@ Android Interview Questions:
         
 * **What is an Explicit `Intent`?**
 
+* **Explain the use of 'bundle' in android?**
+
 * **What is a `BroadcastReceiver`?** <!--- [Learn from here](https://developer.android.com/guide/components/broadcasts) -->
 
 * **What is a `LocalBroadcastManager`?**
