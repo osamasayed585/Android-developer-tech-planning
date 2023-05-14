@@ -76,6 +76,8 @@ Android Interview Questions:
 
 * **What is `View` in Android?**
 
+* **How are view elements identified in the android program?**
+
 * **Difference between `View.GONE` and `View.INVISIBLE`?** <!-- [Learn from here](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)-->
 
 * **Can you a create custom view? How?**
