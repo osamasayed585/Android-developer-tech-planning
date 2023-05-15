@@ -90,6 +90,8 @@ Android Interview Questions:
 
 * **What is View Group in Android?**
 
+* **What is application Widgets in Android?**
+
 * **How are view elements identified in the android program?**
 
 * **Difference between `View.GONE` and `View.INVISIBLE`?** <!-- [Learn from here](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)-->
@@ -129,6 +131,8 @@ Android Interview Questions:
 #### Dialogs and Toasts
 
 * **What is `Dialog` in Android?** <!--- [Learn from here](https://developer.android.com/guide/topics/ui/dialogs) -->
+
+* **Name the dialog box which is supported by Android?**
 
 * **What is `Toast` in Android?** <!--- [Learn from here](https://developer.android.com/guide/topics/ui/notifiers/toasts)-->
 
@@ -289,6 +293,12 @@ Android Interview Questions:
 
 #### Android System Internal
 
+* **Which types of flags are used to run an application on Android?**
+
+* **Define Android Architecture?**
+
+* **Which kernel is used in Android?**
+
 * **What is Android Runtime?** <!--- [Android Runtime](https://amitshekhar.me/blog/dalvik-art-jit-aot) -->
 
 * **Dalvik, ART, JIT, and AOT in Android** <!--- [Dalvik, ART, JIT, and AOT](https://amitshekhar.me/blog/dalvik-art-jit-aot) -->
@@ -322,6 +332,22 @@ Android Interview Questions:
 * **How ViewModel work internally?**
 
 #### Others
+
+* **What are the basic tools used to develop an Android app?**
+
+* **What is the Adapter in Android?**
+
+* **What is a singleton class in Android?**
+
+* **What is sleep mode in Android?**
+
+* **What do you mean by a drawable folder in Android?**
+
+* **What is DDMS?**
+
+* **What is nine-patch images tool in Android?**
+
+* **Name some exceptions in Android?**
 
 * **Why Bundle class is used for data passing and why cannot we use simple Map data structure?** <!--- [Learn from here](https://developer.android.com/guide/components/activities/parcelables-and-bundles) -->
 
