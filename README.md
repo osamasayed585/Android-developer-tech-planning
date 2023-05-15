@@ -66,7 +66,7 @@ Android Interview Questions:
 * **What are "launchMode"?** <!--- [Learn from here](https://amitshekhar.me/blog/singletask-launchmode-in-android) and [singleTask launchMode in Android](https://youtu.be/WYkQEnm4jeI) -->
 
 * **What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.** <!--- [Learn from here](https://stackoverflow.com/questions/10478233/why-fragments-and-when-to-use-fragments-instead-of-activities) -->
-
+* **Mention the difference between `class`, `file` and `activity` in Android?**
 * **When should you use a Fragment rather than an Activity?**
    <!-- - When you have some UI components to be used across various activities
     - When multiple view can be displayed side by side just like viewPager -->
