@@ -489,23 +489,23 @@ Android Interview Questions:
 
 Android Interview Questions:
 
-* **What is Espresso?** <!--- [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html) -->
+* **What is Espresso?**  [Learn from here](https://developer.android.com/training/testing/ui-testing/espresso-testing.html) 
 
-* **What is Robolectric?** <!--- [Learn from here](http://robolectric.org/) -->
+* **What is Robolectric?**[Learn from here](http://robolectric.org/)
 
-* **What are the disadvantages of using Robolectric?** <!--- [Learn from here](https://stackoverflow.com/questions/18271474/robolectric-vs-android-test-framework) -->
+* **What are the disadvantages of using Robolectric?** [Learn from here](https://stackoverflow.com/questions/18271474/robolectric-vs-android-test-framework)
 
-* **What is UI-Automator?** <!--- [Learn from here](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html) -->
+* **What is UI-Automator?**  [Learn from here](https://developer.android.com/training/testing/ui-testing/uiautomator-testing.html)
 
-* **Explain unit test.** <!--- [Learn from here](https://developer.android.com/training/testing/unit-testing/local-unit-tests) -->
+* **Explain unit test.** [Learn from here](https://developer.android.com/training/testing/unit-testing/local-unit-tests)
 
-* **Explain instrumented test.** <!--- [Learn from here](https://developer.android.com/training/testing/unit-testing/instrumented-unit-tests) -->
+* **Explain instrumented test.**  [Learn from here](https://developer.android.com/training/testing/unit-testing/instrumented-unit-tests) 
 
 * **Have you done unit testing or automatic testing?**
 
-* **Why Mockito is used?** <!--- [Learn from here](http://site.mockito.org/) -->
+* **Why Mockito is used?** [Learn from here](http://site.mockito.org/) 
 
-* **Describe JUnit test.** <!--- [Learn from here](https://en.wikipedia.org/wiki/JUnit) -->
+* **Describe JUnit test.**  [Learn from here](https://en.wikipedia.org/wiki/JUnit)
 
 * **Describe code coverage.**
 
